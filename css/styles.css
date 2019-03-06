@@ -1,0 +1,78 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../images/bg-desktop.svg");
+  background-color:hsl(257, 40%, 49%);
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+footer {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+}
+
+i.fas {
+  color: whitesmoke;
+}
+
+i.fab {
+  color: hsl(257, 40%, 49%);
+}
+
+.logo-img {
+  left: 0;
+  margin-top: 50px;
+  transform: scale(0.8) translateX(-10%);
+}
+
+.main-container {
+  margin: 70px  auto;
+}
+
+.main-text {
+  display: inline-block;
+  margin: 20px auto 0 50px;
+  width: 40%;
+}
+
+.mock-img {
+  float: left;
+}
+
+.register-btn {
+  background: whitesmoke;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 3px 8px #666666;
+  -moz-box-shadow: 0px 3px 8px #666666;
+  box-shadow: 0px 3px 8px #666666;
+  color: hsl(257, 40%, 49%);
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 60px 15px 60px;
+  text-decoration: none;
+}
+
+.register-btn:hover  {
+  background: #1f1f1f;
+  border-color: #1f1f1f;
+  text-decoration: none;
+}
+
+.socials-container {
+  margin-top: 130px;
+  text-align: right;
+}

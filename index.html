@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,14 +18,41 @@
   </style>
 </head>
 <body>
+  <img class="logo-img" src="images/logo.svg">
+  <div class="main-container">
+    <img class="mock-img" src="images/illustration-mockups.svg">
+    <div class="main-text">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.
+      </p>
+      <button class="register-btn">
+        Register
+      </button>
+    </div>
+  </div>
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  <div class="socials-container">
+    <a href="https://facebook.com">
+      <span class="fa-stack fa-2x">
+        <i class="fas fa-square fa-stack-2x"></i>
+        <i class="fab fa-facebook-f fa-stack-1x"></i>
+      </span>
+    </a>
+    <a href="https://twitter.com">
+      <span class="fa-stack fa-2x">
+          <i class="fas fa-square fa-stack-2x"></i>
+          <i class="fab fa-twitter fa-stack-1x"></i>
+        </span>
+    </a>
+    <a href="https://instagram.com">
+      <span class="fa-stack fa-2x">
+          <i class="fas fa-square fa-stack-2x"></i>
+          <i class="fab fa-instagram fa-stack-1x"></i>
+        </span>
+    </a>
+  </div>
   <footer>
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
